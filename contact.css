@@ -1,0 +1,25 @@
+h4{
+    margin: 1px;
+}
+.contact{
+    margin: auto;
+    margin-top: 180px;
+    max-width: 800px;
+    padding: 10px;
+}
+.contact p{
+    margin: 5px;
+}
+.email_phone{
+    display: flex;
+    align-items: center;
+    margin-top:1px;
+}
+.email_phone > img{
+    height: 22px;
+    margin: 1px;
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+}

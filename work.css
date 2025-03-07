@@ -4,11 +4,39 @@
     justify-content: center;
     flex-wrap: wrap;
 }
-.content1 > img{
+.content1 > imgg{
     max-width: 360px;
     width: 40%;
     margin: 10px;
     height: auto;
     min-width: 300px;
 }
+.content1 > div > img{
+    max-width: 360px;
+    margin: 10px;
+    height: auto;
+    min-width: 300px;
+}
+.content1 > div{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 360px;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.imginfo{
+    display: none;
+    position: absolute;
+    padding: 10px;
+    max-width: 280px;
+    min-width: 230px;
+    font-size: 0.9rem;
+    min-height: 100px;
+    margin: 10px;
+    margin-top: 0px;
+    transform: translateY(160px) translateX(30px);
+    background-color: rgb(255, 250, 253);
+    z-index: 1;
 
+}

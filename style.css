@@ -1,7 +1,8 @@
 body{
     margin: 0px;
-    background-color:rgb(255, 244, 231);
+    background-color:rgb(252, 244, 233);
     height: 100vh;
+    padding-bottom: 1px;
 }
 li{
     margin-top: 5px;
@@ -177,7 +178,7 @@ a{
 }
 footer{
     display: flex;
-    position:absolute;
+    position:relative;
     flex-direction: column;
     height: 100px;
     background-color: rgb(149, 144, 144);

@@ -10,7 +10,7 @@
 const divimg = document.querySelectorAll('div.content1 > div');
 const imginfo = document.querySelectorAll('div.content1 > div > div.imginfo');
 divimg.forEach((node, index) => node.addEventListener('mouseover', (e) => {
-    imginfo[index].setAttribute('style', 'border: 2px solid red; display:block')
+    imginfo[index].setAttribute('style','display:block')
 }))
 divimg.forEach((node, index) => node.addEventListener('mouseleave', (e) => {
     imginfo[index].setAttribute('style', 'border: none')

@@ -1,5 +1,13 @@
-h4{
+bodyy{
+    background: radial-gradient(white 30%, green 60%, red);
+}
+
+h3,h4{
     margin: 1px;
+}
+ul{
+    font-size: 1.1rem;
+    line-height: 1.5;
 }
 .contact{
     margin: auto;
@@ -20,6 +28,6 @@ h4{
     margin: 1px;
 }
 footer{
-    position: fixed;
+    position: relative;
     bottom: 0px;
 }

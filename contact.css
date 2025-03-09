@@ -1,6 +1,3 @@
-bodyy{
-    background: radial-gradient(white 30%, green 60%, red);
-}
 
 h3,h4{
     margin: 1px;
@@ -9,11 +6,22 @@ ul{
     font-size: 1.1rem;
     line-height: 1.5;
 }
+.back{
+    margin: auto;
+    margin-top: 170px;
+    max-width: 900px;
+    background-image: url('./background1.jpg');
+    background-origin: padding-box;
+    background-position: left;
+    background-size: cover;
+
+}
 .contact{
     margin: auto;
-    margin-top: 180px;
-    max-width: 800px;
     padding: 10px;
+    max-width: 900px;
+    background-color: antiquewhite;
+    background: linear-gradient(90deg, rgb(252, 244, 233)30%, rgba(255, 255, 255, 0.28),rgb(252, 244, 233));
 }
 .contact p{
     margin: 5px;

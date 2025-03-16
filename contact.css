@@ -8,7 +8,7 @@ ul{
 }
 .back{
     margin: auto;
-    margin-top: 170px;
+    margin-top: 130px;
     max-width: 900px;
     background-image: url('./background1.jpg');
     background-origin: padding-box;
@@ -21,7 +21,7 @@ ul{
     padding: 10px;
     max-width: 900px;
     background-color: antiquewhite;
-    background: linear-gradient(90deg,rgb(252, 244, 233), rgba(252, 244, 233, 0.456), rgba(252, 244, 233, 0.666), rgba(252, 244, 233, 0.994));
+    background: linear-gradient(90deg,rgb(250, 242, 231)7%, rgba(252, 244, 233, 0.456), rgba(252, 244, 233, 0.666), rgba(252, 244, 233, 0.994));
 }
 .contact p{
     margin: 5px;
@@ -57,7 +57,7 @@ p{
 }
 .pict >img{
     display:block;
-    max-width: 350px;
+    max-width: 340px;
     position:absolute;
     margin: auto;
     z-index: 0;
@@ -80,10 +80,10 @@ p{
     width: 30px;
 }
 #ar1{
-    margin-right: 180px;
+    margin-right: 173px;
 }
 #ar2{
-    margin-left: 180px;
+    margin-left: 173px;
 }
 footer{
     margin-bottom: 0px;

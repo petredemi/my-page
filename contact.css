@@ -21,10 +21,14 @@ ul{
     padding: 10px;
     max-width: 900px;
     background-color: antiquewhite;
-    background: linear-gradient(90deg, rgb(252, 244, 233)30%, rgba(255, 255, 255, 0.28),rgb(252, 244, 233));
+    background: linear-gradient(90deg,rgb(252, 244, 233), rgba(252, 244, 233, 0.456), rgba(252, 244, 233, 0.666), rgba(252, 244, 233, 0.994));
 }
 .contact p{
     margin: 5px;
+}
+p{
+    font-size: 1.2rem;
+    color: rgb(33, 3, 105);
 }
 .email_phone{
     display: flex;
@@ -35,7 +39,52 @@ ul{
     height: 22px;
     margin: 1px;
 }
+.pictbox{
+    display: flex;
+    justify-content: center;
+    max-width: 900px;
+    height: fit-content;
+    margin: auto;
+}
+.pict{
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    min-height: 450px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    z-index: 0;
+}
+.pict >img{
+    display:block;
+    max-width: 350px;
+    position:absolute;
+    margin: auto;
+    z-index: 0;
+}
+.arrow{
+    display: flex;
+    z-index: 0;
+    height: 450px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.arrow > p{
+    margin: auto;
+    border: 2px solid darkcyan;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    padding-top: 6px;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+}
+#ar1{
+    margin-right: 180px;
+}
+#ar2{
+    margin-left: 180px;
+}
 footer{
-    position: relative;
-    bottom: 0px;
+    margin-bottom: 0px;
 }

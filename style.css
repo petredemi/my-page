@@ -19,13 +19,14 @@ a{
     color: black;
 }
 .topnavlinks{
-    background-color: black;
     overflow: hidden;
     position: fixed;
+    z-index: 1;
     height: 170px;
     width: 100%;
     top: 0;
     margin: 0px;
+    background-color: rgb(0, 0, 0);
 }
 .top{
     display: flex;
@@ -33,11 +34,13 @@ a{
     justify-content: space-between;
     max-width: 900px;
     margin: auto;
+    background-color: rgba(0, 255, 255, 0);
+    height: fit-content;
 }
 .menue > a{
     color: aliceblue;
     text-shadow: 1px 1px 1px black;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin: 5px;
     padding: 10px;
 
@@ -47,7 +50,7 @@ a{
     background-color: cyan;
 }
 .menue > a:hover:not(.active){
-    background-color: rgb(141, 236, 203);
+    background-color: rgb(233, 233, 227);
     color: black;
 }
 .menue{

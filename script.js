@@ -1,18 +1,33 @@
-//const img1 = document.querySelector('#img1');
-//const img2 = document.querySelector('#img2');
-//const img3 = document.querySelector('#img3');
-//const img4 = document.querySelector('#img4');
-//const img5 = document.querySelector('#img5');
-//const img6 = document.querySelector('#img6');
-//const img7 = document.querySelector('#img7');
-//const img8 = document.querySelector('#img8');
 
 const divimg = document.querySelectorAll('div.content1 > div');
 const imginfo = document.querySelectorAll('div.content1 > div > div.imginfo');
+const pict = document.querySelectorAll('div.pict > img');
+const img = document.querySelectorAll('div.pict > img');
+const ar1 = document.querySelector('#ar1');
+const ar2 = document.querySelector('#ar2');
+
+
 divimg.forEach((node, index) => node.addEventListener('mouseover', (e) => {
     imginfo[index].setAttribute('style','display:block')
 }))
 divimg.forEach((node, index) => node.addEventListener('mouseleave', (e) => {
     imginfo[index].setAttribute('style', 'border: none')
 }))
+let i = 9; //images  index 
+ar1.addEventListener('click', (e) => {
+    console.log('dcdcd')
+    img[i].setAttribute('style', 'display: block')
+    if( i >= 9)return;
+        i = i + 1
+    console.log(i)
+})
+ar2.addEventListener('click', (e) => {
+    console.log('vvcv')    
+    img[i].setAttribute('style', 'display: none')
+    if (i <= 1) return;
+        i = i -1
+    console.log(i)
+})
+
+
 

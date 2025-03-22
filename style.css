@@ -34,9 +34,12 @@ a{
     height: fit-content;
     color: black;
 }
+h2{
+    margin-top: 1px;
+}
 .name{
     font-family: font4;
-    color: red;
+    color: rgb(1, 53, 24);
     font-size: 2rem;
 }
 .topnavlinks{
@@ -79,8 +82,8 @@ a{
     margin-left: 50px;
 
 }
-.mypage > img{
-    max-width: 150px;
+.title > img{
+    max-width: 160px;
     max-height: fit-content;
     width: 20%;
     object-fit: cover;
@@ -89,6 +92,8 @@ a{
     padding: 3px;
     border: 2px solid blue;
     background: linear-gradient(40deg, red, yellow, blue);
+    float: left;
+    margin-right: 20px;
 }
 .icons > img{
     height: 25px;
@@ -98,18 +103,18 @@ a{
     width: fit-content;
 }
 .title{
-    max-width: 600px;
+    max-width: 800px;
 }
 .mypage{
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     margin: auto;
     margin-top: 150px;
     max-width: 900px;
-    padding: 10px;
+    padding: 20px;
 }
 .aboutme{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 500;
     color: rgb(2, 76, 76);
     line-height: 1.4;

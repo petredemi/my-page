@@ -1,3 +1,19 @@
+@font-face{
+    font-family: font1;
+    src: url('./fonts/DancingScript-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: font2;
+    src: url('./fonts/Ballet-Regular-VariableFont_opsz.ttf');
+}
+@font-face {
+    font-family: font3;
+    src: url('./fonts/BreeSerif-Regular.ttf');
+}
+@font-face {
+    font-family: font4;
+    src: url('./fonts/CroissantOne-Regular.ttf');
+}
 body{
     margin: 0px;
     background-color:rgb(252, 244, 233);
@@ -17,6 +33,11 @@ a{
     align-items: center;
     height: fit-content;
     color: black;
+}
+.name{
+    font-family: font4;
+    color: red;
+    font-size: 2rem;
 }
 .topnavlinks{
     overflow: hidden;
@@ -86,13 +107,13 @@ a{
     margin-top: 150px;
     max-width: 900px;
     padding: 10px;
-    background-color: antiquewhite;
 }
 .aboutme{
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     font-weight: 500;
     color: rgb(2, 76, 76);
     line-height: 1.4;
+    font-family: font3;
 }
 .expertize{
     display: flex;

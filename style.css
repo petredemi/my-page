@@ -85,7 +85,7 @@ h2{
 .title > img{
     max-width: 160px;
     max-height: fit-content;
-    width: 20%;
+    width: 24%;
     object-fit: cover;
     object-position: 50% 20% ;
     border-radius: 50%;
